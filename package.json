@@ -1,0 +1,29 @@
+{
+  "name": "nyt_scrape_and_display",
+  "version": "1.0.0",
+  "description": "Scrape articles from new york times and display them on a page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "casperjs scrape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfarr23/nytScrapeAndDisplay.git"
+  },
+  "author": "Michael Farrelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfarr23/nytScrapeAndDisplay/issues"
+  },
+  "homepage": "https://github.com/mfarr23/nytScrapeAndDisplay#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "casperjs": "^1.1.4",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.13",
+    "phantomjs": "^2.1.7",
+    "request": "^2.83.0"
+  }
+}
